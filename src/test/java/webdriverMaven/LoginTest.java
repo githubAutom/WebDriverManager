@@ -24,7 +24,7 @@ public class LoginTest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.cssSelector("#identifierId")).sendKeys("divyamoturi2504@gmail.com");
 		driver.findElement(By.cssSelector("#identifierNext > div > button > span")).click();
-		//Thread.sleep(3000);
+		Thread.sleep(3000);
 		
 		//driver.findElement(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")).sendKeys("abc");
 	}
